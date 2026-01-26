@@ -1,0 +1,14 @@
+[
+    {
+        "desc": "PDF documents",
+        "payload": "site:{target} ext:pdf"
+    },
+    {
+        "desc": "Word documents",
+        "payload": "site:{target} ext:doc OR ext:docx"
+    },
+    {
+        "desc": "Excel documents",
+        "payload": "site:{target} ext:xls OR ext:xlsx"
+    }
+]

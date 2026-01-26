@@ -1,0 +1,14 @@
+[
+    {
+        "desc": "Open directory listing",
+        "payload": "site:{target} intitle:\"index of\""
+    },
+    {
+        "desc": "Uploads directory",
+        "payload": "site:{target} inurl:uploads"
+    },
+    {
+        "desc": "Backup directory",
+        "payload": "site:{target} inurl:backup"
+    }
+]

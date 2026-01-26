@@ -1,0 +1,26 @@
+[
+    {
+        "desc": "Pastebin Leaks",
+        "payload": "site:pastebin.com \"{target}\""
+    },
+    {
+        "desc": "Trello Boards",
+        "payload": "site:trello.com \"{target}\""
+    },
+    {
+        "desc": "JSFiddle Code",
+        "payload": "site:jsfiddle.net \"{target}\""
+    },
+    {
+        "desc": "Codepen Snippets",
+        "payload": "site:codepen.io \"{target}\""
+    },
+    {
+        "desc": "Gist Secrets",
+        "payload": "site:gist.github.com \"{target}\" \"secret\""
+    },
+    {
+        "desc": "Ghostbin Leaks",
+        "payload": "site:ghostbin.com \"{target}\""
+    }
+]

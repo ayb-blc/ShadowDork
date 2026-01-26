@@ -1,0 +1,34 @@
+[
+    {
+        "desc": "AWS S3 Buckets",
+        "payload": "site:s3.amazonaws.com \"{target}\""
+    },
+    {
+        "desc": "AWS Region Buckets",
+        "payload": "site:s3-us-west-1.amazonaws.com \"{target}\""
+    },
+    {
+        "desc": "Google Storage",
+        "payload": "site:googleapis.com \"{target}\""
+    },
+    {
+        "desc": "Azure Blob Storage",
+        "payload": "site:blob.core.windows.net \"{target}\""
+    },
+    {
+        "desc": "DigitalOcean Spaces",
+        "payload": "site:digitaloceanspaces.com \"{target}\""
+    },
+    {
+        "desc": "Firebase Database",
+        "payload": "site:firebaseio.com \"{target}\""
+    },
+    {
+        "desc": "Open S3 Bucket XML",
+        "payload": "site:{target} intext:\"<ListBucketResult>\""
+    },
+    {
+        "desc": "Heroku Apps",
+        "payload": "site:herokuapp.com \"{target}\""
+    }
+]

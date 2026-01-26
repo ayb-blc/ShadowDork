@@ -1,0 +1,82 @@
+[
+    {
+        "desc": "Generic log files",
+        "payload": "site:{target} ext:log"
+    },
+    {
+        "desc": "Error log files",
+        "payload": "site:{target} intext:\"error log\""
+    },
+    {
+        "desc": "Apache access logs",
+        "payload": "site:{target} inurl:access.log"
+    },
+    {
+        "desc": "Apache error logs",
+        "payload": "site:{target} inurl:error.log"
+    },
+    {
+        "desc": "Nginx access logs",
+        "payload": "site:{target} inurl:access_log"
+    },
+    {
+        "desc": "Nginx error logs",
+        "payload": "site:{target} inurl:error_log"
+    },
+    {
+        "desc": "Application debug logs",
+        "payload": "site:{target} intext:\"DEBUG\" ext:log"
+    },
+    {
+        "desc": "PHP error logs",
+        "payload": "site:{target} intext:\"PHP Warning\" ext:log"
+    },
+    {
+        "desc": "PHP fatal errors",
+        "payload": "site:{target} intext:\"PHP Fatal error\""
+    },
+    {
+        "desc": "Stack trace logs",
+        "payload": "site:{target} intext:\"Stack trace\""
+    },
+    {
+        "desc": "Java exception logs",
+        "payload": "site:{target} intext:\"Exception in thread\""
+    },
+    {
+        "desc": "Spring Boot logs",
+        "payload": "site:{target} intext:\"Whitelabel Error Page\""
+    },
+    {
+        "desc": "Laravel logs",
+        "payload": "site:{target} inurl:storage/logs"
+    },
+    {
+        "desc": "Rails production logs",
+        "payload": "site:{target} inurl:production.log"
+    },
+    {
+        "desc": "System logs",
+        "payload": "site:{target} inurl:syslog"
+    },
+    {
+        "desc": "Authentication failure logs",
+        "payload": "site:{target} intext:\"authentication failed\""
+    },
+    {
+        "desc": "Database error logs",
+        "payload": "site:{target} intext:\"SQLSTATE\""
+    },
+    {
+        "desc": "Debug mode enabled logs",
+        "payload": "site:{target} intext:\"debug=true\""
+    },
+    {
+        "desc": "Log directory listing",
+        "payload": "site:{target} intitle:\"index of\" \"log\""
+    },
+    {
+        "desc": "Backup log files",
+        "payload": "site:{target} ext:log.bak OR ext:log.old"
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "desc": "LFI File Parameter",
+        "payload": "site:{target} inurl:?file="
+    },
+    {
+        "desc": "LFI Page Parameter",
+        "payload": "site:{target} inurl:?page="
+    },
+    {
+        "desc": "LFI Path Parameter",
+        "payload": "site:{target} inurl:?path="
+    },
+    {
+        "desc": "LFI Folder Parameter",
+        "payload": "site:{target} inurl:?folder="
+    },
+    {
+        "desc": "LFI Include Parameter",
+        "payload": "site:{target} inurl:?include="
+    },
+    {
+        "desc": "Common LFI wrapper",
+        "payload": "site:{target} inurl:php://filter"
+    },
+    {
+        "desc": "Directory Traversal",
+        "payload": "site:{target} inurl:\"../\""
+    },
+    {
+        "desc": "Etc/Passwd Exposure",
+        "payload": "site:{target} intext:\"root:x:0:0\""
+    },
+    {
+        "desc": "Boot.ini Exposure",
+        "payload": "site:{target} intext:\"[boot loader]\""
+    },
+    {
+        "desc": "Win.ini Exposure",
+        "payload": "site:{target} intext:\"[extensions]\""
+    },
+    {
+        "desc": "Generic wrapper inclusion",
+        "payload": "site:{target} inurl:view=php://"
+    }
+]

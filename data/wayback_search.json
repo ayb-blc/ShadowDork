@@ -1,0 +1,10 @@
+[
+    {
+        "desc": "Wayback Machine Index",
+        "payload": "site:archive.org \"{target}\""
+    },
+    {
+        "desc": "Cached Pages (Generic)",
+        "payload": "site:{target} inurl:cache"
+    }
+]

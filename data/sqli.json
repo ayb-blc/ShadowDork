@@ -1,0 +1,62 @@
+[
+    {
+        "desc": "Classic PHP id parameter",
+        "payload": "site:{target} inurl:.php?id="
+    },
+    {
+        "desc": "ASP.NET numeric parameter",
+        "payload": "site:{target} inurl:.aspx?id="
+    },
+    {
+        "desc": "Java JSP id parameter",
+        "payload": "site:{target} inurl:.jsp?id="
+    },
+    {
+        "desc": "WordPress numeric parameter",
+        "payload": "site:{target} inurl:p="
+    },
+    {
+        "desc": "Generic numeric parameter",
+        "payload": "site:{target} inurl:?id="
+    },
+    {
+        "desc": "Category ID parameter",
+        "payload": "site:{target} inurl:cat_id="
+    },
+    {
+        "desc": "Product ID parameter",
+        "payload": "site:{target} inurl:product_id="
+    },
+    {
+        "desc": "MySQL Error Based",
+        "payload": "site:{target} intext:\"You have an error in your SQL syntax\""
+    },
+    {
+        "desc": "MySQL Warning",
+        "payload": "site:{target} intext:\"mysql_fetch_array()\""
+    },
+    {
+        "desc": "SQL Server Error",
+        "payload": "site:{target} intext:\"ODBC SQL Server Driver\""
+    },
+    {
+        "desc": "PostgreSQL Error",
+        "payload": "site:{target} intext:\"PG::SyntaxError\""
+    },
+    {
+        "desc": "Oracle Error",
+        "payload": "site:{target} intext:\"ORA-00933\""
+    },
+    {
+        "desc": "JDBC Error",
+        "payload": "site:{target} intext:\"SQLServer JDBC Driver\""
+    },
+    {
+        "desc": "Blind SQLi Indicator",
+        "payload": "site:{target} inurl:php?id=100 OR 1=1"
+    },
+    {
+        "desc": "Select count(*) error",
+        "payload": "site:{target} intext:\"Warning: mysql_query()\""
+    }
+]

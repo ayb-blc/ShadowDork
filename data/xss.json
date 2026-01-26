@@ -1,0 +1,54 @@
+[
+    {
+        "desc": "Generic Search Parameter",
+        "payload": "site:{target} inurl:q="
+    },
+    {
+        "desc": "Search query parameter",
+        "payload": "site:{target} inurl:s="
+    },
+    {
+        "desc": "Search string parameter",
+        "payload": "site:{target} inurl:search="
+    },
+    {
+        "desc": "Language parameter",
+        "payload": "site:{target} inurl:lang="
+    },
+    {
+        "desc": "Keyword parameter",
+        "payload": "site:{target} inurl:keyword="
+    },
+    {
+        "desc": "Year parameter",
+        "payload": "site:{target} inurl:year="
+    },
+    {
+        "desc": "View parameter",
+        "payload": "site:{target} inurl:view="
+    },
+    {
+        "desc": "Page parameter",
+        "payload": "site:{target} inurl:page="
+    },
+    {
+        "desc": "Callback parameter",
+        "payload": "site:{target} inurl:callback="
+    },
+    {
+        "desc": "Return URL parameter",
+        "payload": "site:{target} inurl:return="
+    },
+    {
+        "desc": "Reflected XSS Pattern",
+        "payload": "site:{target} inurl:\"<script>\""
+    },
+    {
+        "desc": "Common XSS Vector",
+        "payload": "site:{target} intext:\"alert(\""
+    },
+    {
+        "desc": "Open Redirect to XSS",
+        "payload": "site:{target} inurl:url="
+    }
+]

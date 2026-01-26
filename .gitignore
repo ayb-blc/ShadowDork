@@ -1,0 +1,15 @@
+# Virtual Environments
+venv/
+dorking/
+env/
+
+# Python Cache Files
+__pycache__/
+*.pyc
+
+# System Files
+.DS_Store
+.env
+
+# Created Shortcut
+shadowdork

@@ -1,0 +1,30 @@
+[
+    {
+        "desc": "Swagger UI",
+        "payload": "site:{target} inurl:swagger-ui"
+    },
+    {
+        "desc": "API Version 1",
+        "payload": "site:{target} inurl:api/v1"
+    },
+    {
+        "desc": "GraphiQL Endpoint",
+        "payload": "site:{target} intext:\"GraphiQL\""
+    },
+    {
+        "desc": "WSDL File",
+        "payload": "site:{target} ext:wsdl"
+    },
+    {
+        "desc": "API Documentation",
+        "payload": "site:{target} inurl:apidocs"
+    },
+    {
+        "desc": "JSON Response",
+        "payload": "site:{target} ext:json"
+    },
+    {
+        "desc": "WordPress REST API",
+        "payload": "site:{target} inurl:wp-json"
+    }
+]

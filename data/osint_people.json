@@ -1,0 +1,30 @@
+[
+    {
+        "desc": "Email Addresses (@)",
+        "payload": "site:{target} intext:\"@\""
+    },
+    {
+        "desc": "Email (gmail/hotmail)",
+        "payload": "site:{target} intext:\"@gmail.com\" OR intext:\"@hotmail.com\""
+    },
+    {
+        "desc": "Phone Numbers",
+        "payload": "site:{target} intext:\"phone\" OR intext:\"mobile\""
+    },
+    {
+        "desc": "CV / Resumes",
+        "payload": "site:{target} inurl:cv OR inurl:resume"
+    },
+    {
+        "desc": "LinkedIn Profiles",
+        "payload": "site:linkedin.com intext:\"{target}\""
+    },
+    {
+        "desc": "Contacts Page",
+        "payload": "site:{target} inurl:contact"
+    },
+    {
+        "desc": "Team / Staff Page",
+        "payload": "site:{target} inurl:team OR inurl:staff"
+    }
+]

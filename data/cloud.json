@@ -1,0 +1,14 @@
+[
+    {
+        "desc": "AWS access key exposure",
+        "payload": "intext:\"AKIA\" site:{target}"
+    },
+    {
+        "desc": "Google API key",
+        "payload": "intext:\"AIza\" site:{target}"
+    },
+    {
+        "desc": "Firebase database",
+        "payload": "site:firebaseio.com \"{target}\""
+    }
+]

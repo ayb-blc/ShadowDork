@@ -1,0 +1,5 @@
+rich
+duckduckgo-search
+requests
+beautifulsoup4
+fake-useragent

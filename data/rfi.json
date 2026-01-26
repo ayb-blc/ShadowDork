@@ -1,0 +1,10 @@
+[
+    {
+        "desc": "Remote File Inclusion parameter",
+        "payload": "inurl:?page=http"
+    },
+    {
+        "desc": "RFI common include",
+        "payload": "inurl:?include=http"
+    }
+]

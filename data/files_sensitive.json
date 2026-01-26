@@ -1,0 +1,62 @@
+[
+    {
+        "desc": "Environment Files (.env)",
+        "payload": "site:{target} ext:env"
+    },
+    {
+        "desc": "Configuration Files (.conf)",
+        "payload": "site:{target} ext:conf"
+    },
+    {
+        "desc": "INI Configuration (.ini)",
+        "payload": "site:{target} ext:ini"
+    },
+    {
+        "desc": "Log Files (.log)",
+        "payload": "site:{target} ext:log"
+    },
+    {
+        "desc": "SQL Dump Files (.sql)",
+        "payload": "site:{target} ext:sql"
+    },
+    {
+        "desc": "Backup Files (.bak)",
+        "payload": "site:{target} ext:bak"
+    },
+    {
+        "desc": "Old Backup Files (.old)",
+        "payload": "site:{target} ext:old"
+    },
+    {
+        "desc": "Zip Archives",
+        "payload": "site:{target} ext:zip"
+    },
+    {
+        "desc": "Private SSH Keys",
+        "payload": "site:{target} intext:\"-----BEGIN RSA PRIVATE KEY-----\""
+    },
+    {
+        "desc": "Putty Private Keys",
+        "payload": "site:{target} ext:ppk"
+    },
+    {
+        "desc": "VPN Config Files",
+        "payload": "site:{target} ext:ovpn"
+    },
+    {
+        "desc": "Docker Compose",
+        "payload": "site:{target} inurl:docker-compose.yml"
+    },
+    {
+        "desc": "Robot.txt File",
+        "payload": "site:{target} inurl:robots.txt"
+    },
+    {
+        "desc": "Sitemap XML",
+        "payload": "site:{target} inurl:sitemap.xml"
+    },
+    {
+        "desc": "Web Config (IIS)",
+        "payload": "site:{target} ext:config intext:\"connectionString\""
+    }
+]

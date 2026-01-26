@@ -1,0 +1,34 @@
+[
+    {
+        "desc": "phpMyAdmin Panel",
+        "payload": "site:{target} inurl:phpmyadmin"
+    },
+    {
+        "desc": "Kibana Dashboard",
+        "payload": "site:{target} inurl:app/kibana"
+    },
+    {
+        "desc": "Grafana Dashboard",
+        "payload": "site:{target} inurl:grafana"
+    },
+    {
+        "desc": "SonarQube",
+        "payload": "site:{target} intitle:SonarQube"
+    },
+    {
+        "desc": "RabbitMQ Management",
+        "payload": "site:{target} intitle:\"RabbitMQ Management\""
+    },
+    {
+        "desc": "ElasticSearch Info",
+        "payload": "site:{target} intext:\"cluster_name\" \"tagline\""
+    },
+    {
+        "desc": "Apache Status",
+        "payload": "site:{target} inurl:server-status"
+    },
+    {
+        "desc": "Spring Boot Actuator",
+        "payload": "site:{target} inurl:actuator/health"
+    }
+]

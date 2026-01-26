@@ -1,0 +1,14 @@
+[
+    {
+        "desc": ".git folder exposure",
+        "payload": "site:{target} inurl:.git"
+    },
+    {
+        "desc": "Git config",
+        "payload": "site:{target} inurl:.git/config"
+    },
+    {
+        "desc": "GitHub references",
+        "payload": "site:github.com \"{target}\""
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "desc": "GitHub: Target Exposure",
+        "payload": "site:github.com \"{target}\""
+    },
+    {
+        "desc": "GitHub: Passwords",
+        "payload": "site:github.com \"{target}\" \"password\""
+    },
+    {
+        "desc": "GitHub: API Keys",
+        "payload": "site:github.com \"{target}\" \"api_key\""
+    },
+    {
+        "desc": "GitHub: Secrets",
+        "payload": "site:github.com \"{target}\" \"secret\""
+    },
+    {
+        "desc": "GitLab Exposure",
+        "payload": "site:gitlab.com \"{target}\""
+    },
+    {
+        "desc": "Bitbucket Exposure",
+        "payload": "site:bitbucket.org \"{target}\""
+    },
+    {
+        "desc": "StackOverflow Questions",
+        "payload": "site:stackoverflow.com \"{target}\""
+    },
+    {
+        "desc": "SourceForge Projects",
+        "payload": "site:sourceforge.net \"{target}\""
+    }
+]
