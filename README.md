@@ -110,6 +110,7 @@ data/
 ├── files_sensitive.json # .env, .conf, .log files
 ├── cloud_storage.json   # AWS S3, Azure Blob leaks
 └── ...
+```
 
 Want to add new dorks? Simply create a new .json file in the data/ folder (e.g., wordpress.json). The tool will automatically detect and load it on the next run. No code changes required!
 
