@@ -13,7 +13,7 @@
 
 ---
 
-## Overview
+## 📖 Overview
 
 **ShadowDork** is a next-generation command-line tool designed for **Bug Bounty Hunters**, **Pentesters**, and **Security Researchers**. 
 
@@ -21,7 +21,7 @@ Unlike traditional dorking tools that aggressively query Google and get blocked 
 
 It transforms the tedious process of Google Hacking into a streamlined, automated, and safe workflow.
 
-## Key Features
+## 📚 Key Features
 
 * **Anti-Ban Architecture (Stealth Mode):** Uses DuckDuckGo as a "Oracle" to verify if a dork returns results before you ever open Google. This minimizes interaction with Google servers, reducing the risk of IP bans and CAPTCHAs by **99%**.
 * **Smart Verification Engine:** The `-x` (check) flag doesn't just ping the URL. It performs **Client-Side Validation** to ensure the target domain matches and eliminates false positives caused by search engine fuzziness.
@@ -30,7 +30,7 @@ It transforms the tedious process of Google Hacking into a streamlined, automate
 * **Preview Mode:** Inspect payloads with IDs before running them using the `-P` flag.
 * **Rich CLI Interface:** Beautiful, readable, and interactive terminal output powered by the `rich` library.
 
-## Installation
+## 📦 Installation
 
 ### Prerequisites
 * Python 3.8 or higher
@@ -40,7 +40,7 @@ It transforms the tedious process of Google Hacking into a streamlined, automate
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/ayb-blc/ShadowDork.git](https://github.com/ayb-blc/ShadowDork.git)
+    git clone https://github.com/ayb-blc/ShadowDork.git 
     cd ShadowDork
     ```
 
@@ -51,7 +51,7 @@ It transforms the tedious process of Google Hacking into a streamlined, automate
     ```
     *This script will set up a virtual environment, install requirements, and create a `./shadowdork` shortcut.*
 
-## Usage
+## 💻 Usage
 
 ShadowDork is designed to be intuitive.
 
@@ -85,23 +85,25 @@ Then, run only the selected IDs (e.g., ID 1, 2, and 5):
 ./shadowdork -l
 ```
 
-## Arguments
+## ⚙️ Arguments
 
-Argument,Long Flag,Description
--t,--target,"Target domain (e.g., example.com)."
--c,--category,"Dork category (e.g., git, sqli, logs)."
--x,--check,Live Check Mode. Verifies results via DDG to prevent empty tabs.
--o,--open,Automatically opens valid links in your default browser.
--g,--grep,"Select specific Dork IDs to run (e.g., 1-5 or 1,3,9)."
--P,--preview,Lists payloads in a category with IDs without running them.
--l,--list,Lists all available categories in the database.
--e,--engine,Search engine logic (Default: ddg).
--b,--browser,"Specify browser (chrome, firefox, brave, default)."
+| Argument | Long Flag | Description |
+| :--- | :--- | :--- |
+| `-t` | `--target` | Target domain (e.g., `example.com`). |
+| `-c` | `--category` | Dork category (e.g., `git`, `sqli`, `logs`). |
+| `-x` | `--check` | **Live Check Mode.** Verifies results via DDG to prevent empty tabs. |
+| `-o` | `--open` | Automatically opens valid links in your default browser. |
+| `-g` | `--grep` | Select specific Dork IDs to run (e.g., `1-5` or `1,3,9`). |
+| `-P` | `--preview` | Lists payloads in a category with IDs without running them. |
+| `-l` | `--list` | Lists all available categories in the database. |
+| `-e` | `--engine` | Search engine logic (Default: `ddg`). |
+| `-b` | `--browser` | Specify browser (`chrome`, `firefox`, `brave`, `default`). |
 
-## Data Structure (Modularity)
+## 📂 Data Structure (Modularity)
 
-ShadowDork uses a modular JSON system located in the data/ directory. Each file represents a category.
+ShadowDork uses a modular JSON system located in the `data/` directory. Each file represents a category.
 
+```text
 data/
 ├── git.json             # Git exposure dorks
 ├── sqli.json            # SQL Injection patterns
