@@ -1,0 +1,26 @@
+[
+    {
+        "desc": "Environment Files (.env)",
+        "payload": "site:{target} filename:.env"
+    },
+    {
+        "desc": "Git Config Exposure",
+        "payload": "site:{target} inurl:.git/config"
+    },
+    {
+        "desc": "Docker Compose Files",
+        "payload": "site:{target} filename:docker-compose.yml"
+    },
+    {
+        "desc": "VSCode SFTP Config",
+        "payload": "site:{target} inurl:.vscode/sftp.json"
+    },
+    {
+        "desc": "IntelliJ IDEA Workspace",
+        "payload": "site:{target} inurl:.idea/workspace.xml"
+    },
+    {
+        "desc": "Public SSH Keys",
+        "payload": "site:{target} ext:json intext:\"private_key\""
+    }
+]

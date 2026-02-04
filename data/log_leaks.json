@@ -1,0 +1,18 @@
+[
+    {
+        "desc": "Laravel Debug Logs",
+        "payload": "site:{target} inurl:storage/logs/laravel.log"
+    },
+    {
+        "desc": "Apache/Nginx Error Logs",
+        "payload": "site:{target} ext:log intext:\"fatal error\""
+    },
+    {
+        "desc": "WordPress Debug Log",
+        "payload": "site:{target} inurl:wp-content/debug.log"
+    },
+    {
+        "desc": "Exposed Log Files containing Passwords",
+        "payload": "site:{target} ext:log intext:password"
+    }
+]

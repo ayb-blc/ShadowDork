@@ -1,0 +1,18 @@
+[
+    {
+        "desc": "Kibana Dashboard",
+        "payload": "site:{target} inurl:app/kibana"
+    },
+    {
+        "desc": "Grafana Login",
+        "payload": "site:{target} intitle:\"Grafana\" inurl:login"
+    },
+    {
+        "desc": "Traefik Dashboard",
+        "payload": "site:{target} intitle:\"Traefik\" inurl:dashboard"
+    },
+    {
+        "desc": "Jenkins Dashboard",
+        "payload": "site:{target} intitle:\"Dashboard [Jenkins]\""
+    }
+]
