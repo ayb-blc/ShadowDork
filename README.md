@@ -55,12 +55,14 @@ It transforms the tedious process of Google Hacking into a streamlined, automate
 
 ShadowDork is designed to be intuitive.
 
+![ShadowDork Help Menu](assets/shadowdork1.png)
+
 ### 1. Basic Scan
 Generate search links for a specific category and target.
 ```bash
 ./shadowdork -t uber.com -c git -o
 ```
-
+![ShadowDork Scan Results](assets/shadowdork3.png)
 
 ### 2. Stealth Live Check (Recommended)
 
@@ -84,6 +86,7 @@ Then, run only the selected IDs (e.g., ID 1, 2, and 5):
 ```bash
 ./shadowdork -l
 ```
+![ShadowDork Categories](assets/snadowdork2.png)
 
 ## ⚙️ Arguments
 
